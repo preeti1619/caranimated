@@ -1,0 +1,168 @@
+.main{
+    background-color: yellow;
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  justify-content: center
+  ;
+  align-content: center;
+  
+
+
+}
+.box1{
+    height:150px;
+    width:150px;
+    background-color: brown;
+    margin: 10px;
+    
+    animation-name: box;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+transform: skewX(30deg);
+
+
+}
+.box2{
+    height:150px;
+    width:150px;
+    background-color: blueviolet;
+margin: 20px;
+
+animation-name: box1;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+transform: skewY(45deg);
+
+}
+
+.box3{
+    height:150px;
+    width:150px;
+    background-color: antiquewhite;
+    margin: 20px;
+
+    animation-name: box2;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transform: skew(30deg);
+
+}
+.box4{
+    height:150px;
+    width:150px;
+    background-color: grey;
+margin: 20px;
+animation-name: box3;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+transform: skew(30deg);
+
+
+}
+@keyframes box {
+  from{transform:rotateZ(0deg); }
+    to{
+        transform: rotateZ(35deg);
+    }
+}
+@keyframes box1 {
+    from{transform: rotateY(0deg);}
+      to{
+          transform: rotateY(45deg);
+      }
+  }
+  @keyframes box2{
+    from{transform: rotate(0deg);}
+      to{
+          transform: rotate(360deg);
+      }
+  }
+  @keyframes box3{
+    from{transform: scaleX(-30deg);}
+      to{
+          transform: scaleX(80deg);
+      }
+  }
+  .green1{
+    height:150px;
+    width:150px;
+    background-color:green;
+    margin: 20px;
+    transition-property: width;
+    transition-duration: 12s;
+    transition-delay: 5s;
+    transition-timing-function: ease;
+    
+  }
+  .green2{
+    height:150px;
+    width:150px;
+    background-color: green;
+    margin: 20px;
+  }
+  .green3{
+    height:150px;
+    width:150px;
+    background-color: green;
+    margin: 20px;
+  }
+  .green4{
+    height:150px;
+    width:150px;
+    background-color: green;
+    margin: 20px;
+  }
+  .green5{
+    height:150px;
+    width:150px;
+    background-color: green;
+    margin: 20px;
+  }
+  .green6{
+    height:150px;
+    width:150px;
+    background-color: green;
+    margin: 20px;
+  }
+  .main1{
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 500px;
+    
+  }
+  .green1:hover{
+    /* width:1200px; */
+/* transform: skewx(45deg); */
+margin:200px;
+
+  }
+  .green2:hover{
+    width:200px;
+    height:200px;
+    
+    
+  }
+  .green3:hover{
+    width:300px;
+    height:400px;
+    
+  }
+  .green4:hover{
+    width:200px;
+    height:200px;
+    
+  }
+  .green5:hover{
+    width:200px;
+    height:200px;
+    
+  }
+  .green6:hover{
+    width:400px;
+    height:200px;
+    
+  }
+
